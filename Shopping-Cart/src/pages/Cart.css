@@ -1,0 +1,63 @@
+
+  Cart.css
+
+/* Container styles */
+div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Cart item styles */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  /* Summary styles */
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Empty cart styles */
+  .empty-cart {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Link button styles */
+  .link-button {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .link-button button {
+    background-color: #007bff;
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    div {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+  
+
